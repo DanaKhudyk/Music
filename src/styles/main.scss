@@ -1,0 +1,6 @@
+@use 'font';
+@use 'var';
+
+body {
+    font-family: var.$font;
+}
