@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     background: #1f2023;
     padding-top: 135px;
-
+    color: var.$light;
 }
 * {
     box-sizing: border-box;
@@ -118,7 +118,7 @@ a {
     padding: 100px 50px;
     display: flex;
     justify-content: space-between;
-    color: var.$light;
+
     width: 100%;
     border-radius: 50px;
     &__main {
@@ -133,51 +133,6 @@ a {
         font-size: 64px;
         line-height: 1.1;
         margin-bottom: 21px;  
-    }
-    &-box {
-        padding: 30px;
-        position: relative;
-        border: 1px solid var.$light;
-        border-radius: 20px;
-       
-        &__title{
-            font-weight: 400;
-            font-size: 24px;
-            line-height: 1.1;
-            letter-spacing: 0.05em;
-            text-transform: uppercase; 
-        }
-        &__text{
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 1.5;
-            text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-            max-width: 64%;
-        }
-        &__img {
-            position: absolute;
-            bottom: 30px;
-            right: -20px;
-            max-width: 40%;
-    
-        }
-
-        &__btn{
-            border-radius: 20px; 
-            background: var.$accent;
-            padding: 30px;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 1.1;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: var.$light;
-            text-align: center;
-            display: block;
-            width: 100%;
-            border: 0;
-            margin-top: auto;
-        }
     }
 
     &__info {
@@ -245,5 +200,51 @@ a {
             height: 32px;
             display: block;
         }
+    }
+}
+
+.banner-box {
+    padding: 30px;
+    position: relative;
+    border: 1px solid var.$light;
+    border-radius: 20px;
+   
+    &__title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase; 
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        max-width: 64%;
+    }
+    &__img {
+        position: absolute;
+        bottom: 30px;
+        right: -20px;
+        max-width: 40%;
+
+    }
+
+    &__btn{
+        border-radius: 20px; 
+        background: var.$accent;
+        padding: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var.$light;
+        text-align: center;
+        display: block;
+        width: 100%;
+        border: 0;
+        margin-top: auto;
     }
 }
